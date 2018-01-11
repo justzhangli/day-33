@@ -1,0 +1,67 @@
+header {
+  position: absolute; }
+
+.form {
+  width: 100%;
+  height: 500px; }
+  .form .content {
+    width: 982px;
+    height: 100%;
+    margin: 0 auto;
+    background: url(../images/LZA9TV4S_4T6]ELV0UDEW0J.png) no-repeat;
+    background-size: 90%; }
+    .form .content .left, .form .content .right {
+      width: 400px;
+      height: 450px;
+      padding-top: 50px;
+      float: left; }
+      .form .content .left h1, .form .content .right h1 {
+        font-size: 18px;
+        font-weight: normal;
+        padding-left: 80px;
+        color: #692C12; }
+      .form .content .left form, .form .content .right form {
+        width: 370px;
+        height: 275px;
+        margin-top: 30px;
+        padding-left: 100px; }
+        .form .content .left form span, .form .content .right form span {
+          color: #692C12;
+          font-size: 12px; }
+        .form .content .left form input, .form .content .right form input {
+          padding: 5px;
+          margin: 5px; }
+        .form .content .left form .check, .form .content .right form .check {
+          color: #7b7682; }
+        .form .content .left form a, .form .content .right form a {
+          text-decoration: underline;
+          color: #76695d;
+          margin-left: 10px; }
+        .form .content .left form .btn, .form .content .right form .btn {
+          width: 80px;
+          height: 30px;
+          line-height: 20px;
+          text-align: center;
+          color: #FFFFFF;
+          margin-left: 50px;
+          background: #692c12;
+          border: none;
+          border-radius: 5px; }
+          .form .content .left form .btn:hover, .form .content .right form .btn:hover {
+            background-color: #ffd400; }
+    .form .content .right {
+      margin-left: 10px; }
+      .form .content .right div {
+        font-size: 12px;
+        margin-left: 100px; }
+      .form .content .right span {
+        margin-left: 20px;
+        padding-right: 10px; }
+      .form .content .right .checkbox {
+        margin-left: 50px; }
+      .form .content .right .checkpassword {
+        margin-left: -5px; }
+      .form .content .right form .btn {
+        margin-left: 80px; }
+
+/*# sourceMappingURL=register.css.map */

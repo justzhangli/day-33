@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header_2.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="../font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/detail_cake1.css"/>
+		<script src="../lib/requirejs/require.js" data-main="/js/detail_cake1"></script>
+	</head>
+	<body>	
+		
+		<div class="header_yellow" style="display: block;"></div>
+		<div class="main"></div>
+		<script type="text/html" id="list_template">
+			{{each products as product}}
+			<div class="top">
+				<div class="left">
+					<img src="{{product.img}}" title="草莓拿破仑"/>
+				</div>
+				<div class="right">
+					<div class="id" style="display: none;">{{product.id}}</div>
+					<h3 class="title">{{product.title}}</h3>
+					<span>{{product.send}}</span>
+					<p>{{product.description}}</p>
+					<p>{{product.english}}</p>
+					<div class="detail">
+						<input type="radio" class="ck"/>
+						<span class="type">{{product.type}}</span>
+						<i>￥</i>
+						<span class="price">{{product.price}}</span>
+						<div class="input">
+							<p>{{product.write}}</p>
+							<textarea onresize="none" outline="none" placeholder="请输入需为您免费表写的内容，不需请忽略"></textarea>
+						</div>
+					</div>
+					<a><button class="add_to_cart">{{product.add_to}}</button></a>
+					<div class="alert">
+						<p>	
+							<span>{{product.tishi}}</span>
+							<a href="">x</a>
+						</p>
+						<p>{{product.chose}}</p>
+						<p><button>{{product.confirm}}</button></p>
+					</div>
+				</div>
+			</div>
+			<div class="center">
+					<p>
+						<img src="../images/dot04.jpg" />
+						<span>商品介绍 Product introduce</span>
+					</p>
+					<img src="../images/detail_10.jpg" />
+			</div>
+			<div class="bottom">
+				<p>
+					<img src="../images/dot05.jpg" />
+					<span>可颂坊官方商城</span>
+				</p>
+				<img src="../images/intro.jpg" />
+				<div class="comment">
+					<p>
+						<img src="../images/dot06.jpg" />
+						<span>顾客点评 Customer Reviews</span>
+					</p>
+					<span>暂无评论</span>
+				</div>
+			</div>
+			{{/each}}
+		</script>
+			<div class="show">
+				<p>浏览该商品的顾客还浏览了...</p>
+				<ul class="other_prod">
+					<li>
+						<a href="">
+							<img src="../images/cake_1.jpg" title="提拉米苏"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="../images/cake_2.jpg" title="爱文芒果慕思"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="../images/cake_3.jpg" title="缤纷水果"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="../images/cake_4.jpg" title="巧克力果香"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="../images/cake6.jpg" title="加高黑森林蛋糕"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="../images/cake_7.jpg" title="巧克力浓情"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="../images/cake_8.jpg" title="水果桑巴"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="../images/cake_9.jpg" title="午后派对·玖格格"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="../images/cake_10.jpg" title="凤梨酥礼盒"/>
+						</a>
+					</li>
+					
+				</ul>
+				<div class="prev"><i class="iconfont icon-houtui"></i></div>
+				<div class="next"><i class="iconfont icon-qianjin"></i></div>
+			</div>
+				
+		<footer></footer>
+		
+		
+	</body>
+</html>

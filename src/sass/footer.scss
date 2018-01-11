@@ -1,20 +1,20 @@
-*{
-    margin: 0px;
-    padding: 0;
-}
 a{text-decoration: none;}
+*{margin: 0;padding: 0;}
 footer{
-    width: 100%;
+    width: 1243px;
     height: 230px;
     background: #ffd400;
     padding:10px;
     font-size: 12px;
+    overflow: hidden;
+    margin: 0 auto;
     .left{
-        width:810px;
+        width:750px;
         height: 230px;
+        margin-left: 100px;
         float: left;
         .link{
-            width:810px;
+            width:100%;
             height: 90px;
             overflow: hidden;
             dl{
@@ -41,6 +41,10 @@ footer{
             line-height: 50px;
             color: #692c12;
             padding-left: 40px;
+            .icon-dadianhua{
+                color: #692c12;
+                font-size: 20px;
+            }
             em{font-size: 14px;}
             strong{
                 font-size: 28px;
@@ -56,6 +60,15 @@ footer{
             }
         }
     }
-   .right .weixin{width:150px;height:150px;display: block;}
-    .right span img{width:20px;height:20px;margin-top: 5px;}   
+    .right{
+        width: 150px;
+        height: 150px;
+        float: left;
+        span img{
+            width:20px;height:20px;margin-top: 5px;
+        }
+        .weixin{
+            width:150px;height:150px;display: block;
+        }
+    }  
 }

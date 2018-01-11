@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header_2.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/cart.css"/>
+		<link rel="stylesheet" type="text/css" href="../font/iconfont.css"/>
+		<script src="../lib/requirejs/require.js" data-main="/js/cart"></script>
+	</head>
+	<body>
+		<div class="header_yellow"></div>
+		<div class="main">
+			<div class="status">
+				<img src="../images/cart_f.jpg"/>
+			</div>
+			<div class="cart">
+				<div class="cart_title">
+					<div><lable> <input type="checkbox" class="ck_all">选择</lable></div>
+					<div class="product_name">商品名称</div>
+					<div class="youhui">券码号</div>
+					<div class="pro_type">商品类型</div>
+					<div class="confirm">是否配送</div>
+					<div class="amount">数量</div>
+					<div class="price">单价</div>
+					<div class="sub">小计</div>
+					<div class="oper">操作</div>
+				</div>
+				<table class="cart_body"></table>
+				<div class="total">
+					<div class="total_sub">
+						<em>数量总计：</em><span class="total_amount">0</span>件
+						<em>优惠金额：</em><span>￥0</span>
+						<em>金额总计：</em>￥<span class="total_monye">0</span>
+					</div>
+					<div class="other_oper">
+						<button class="clear">清空购物车</button>
+						<button class="caculate">去结算</button>
+						<button class="continue"><a href="/html/index.html">继续购物</a></button>
+					</div>
+				</div>
+				<div class="interest">
+					<div class="top">
+						<span>你可能会感兴趣的商品</span>
+						<button>附件</button>
+					</div>
+					<div class="body">
+						<dl>
+							<dt><img src="../images/cha.jpg"/></dt>
+							<dd>
+								<p>纸叉盘（5人份）</p>
+								<span>价格 ￥ 3</span>
+								<button>加入购物车</button>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/html" id="cart_template">
+			{{each products as product}}
+			<table class="cart_body">
+				<tbody>
+					<tr>
+						<td class="id" style="display: none;">{{product.id}}</td>
+						<td class="td_ck">
+							<input type="checkbox" class="ck">
+						</td>
+						<td class="detail">
+							<dl>
+								<dt><img src="{{product.img}}"/></dt>
+								<dd>
+									<span class="product_name">{{product.title}}</span></br>
+									<span class="type">{{product.type}}</span>	
+								</dd>
+							</dl>
+						</td>
+						<td class="youhui"></td>
+						<td class="pro_type">蛋糕</td>
+						<td class="send">不可送</td>
+						<td class="amount">
+							<span class="minus">-</span>
+							<input type="text" class="amount_num" value="{{product.amount}}" style="width:20px; text-align: center;">
+							<span class="add">+</span>
+						</td>
+						<td class="price">{{product.price}}</td>
+						<td class="sub">{{product.price * product.amount}}</td>
+						<td class="operate"><a>删除</a></td>
+					</tr>
+				</tbody>
+			</table>
+			{{/each}}
+		</script>
+		<footer></footer>
+	</body>
+</html>

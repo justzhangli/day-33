@@ -2,17 +2,34 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
-		<script src="lib/requirejs/require.js data-main="js/index""></script>
+		<title>可颂商城-蛋糕订购新鲜送达</title>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header_2.css"/>
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="../lib/requirejs/require.js" data-main="/js/index"></script>
 	</head>
-	<body>
-		<header></header>
-		<div class="content">
+	<body>		
+		<!--头部区域-->
+		<div class="header_rgb" style="display: block;"></div>
+		<div class="header_yellow" style="display: none;"></div>
+		<!--轮播图-->
+		<nav>
 			<ul>
-				<li><a href=""><img src="../../images/1.jpg" /></a></li>
-				<li><a href="http://9izone.com/Html/2/SecKillDetail_goods_2_1_214.html"><img src="../../images/2.jpg"</a></li>
-				<li><a href="http://www.9izone.com/SecKill_goods_2_1.html"><img src="../../images/3.jpg"</a></li>
+				<li><a href=""><img src="../../images/1.jpg" title="暂停配送公告"/></a></li>
+				<li><a href="http://9izone.com/Html/2/SecKillDetail_goods_2_1_214.html"><img src="../../images/2.jpg" title="元旦草莓拿破仑"/></a></li>
+				<li><a href="http://www.9izone.com/SecKill_goods_2_1.html"><img src="../../images/3.jpg" title="618下午茶狂欢"/></a></li>
 			</ul>
+			<div class="pages">
+				<i class="current"></i>
+				<i></i>
+				<i></i>
+			</div>
+			<div class="prev"><i class="iconfont icon-houtui"></i></div>
+			<div class="next"><i class="iconfont icon-qianjin"></i></div>
+		</nav>
+		<div class="content">
 			<div class="main">
 				<div class="new">
 					<h6>NEW  PRODUCTS</h6>
@@ -20,33 +37,74 @@
 				</div>
 				<div class="products">
 					<dl>
-						<dt><img src="images/4.jpg"</dt>
+						<dt><a href="html/detail_cake1.html"><img src="images/4.jpg"/></a></dt>
 						<dd>
-							<p>草莓拿破仑 Strawberry Napoleon</p>
-							<p>
+							<p class="straw">草莓拿破仑 Strawberry Napoleon</p>
+							<p class="price">
 								<span>￥258</span>
 								<em>8号</em>
-								<button><a href="">立即购买</a></button>
+								<a href="html/detail_cake1.html"><button>立即购买</button></a>
 							</p>
 						</dd>
 					</dl>
 					<dl>
-						<dt><img src="images/5.jpg"/></dt>
-						<dd></dd>
+						<dt><a href=""><img src="images/5.jpg"/></a></dt>
+						<dd>
+							<p class="straw">缤纷水果 Mixed Fruit Delight</p>
+							<p class="price">
+								<span>￥158</span>
+								<em>6号</em>
+								<a href=""><button>立即购买</button></a>
+								<p class="del"><span>市场价：￥ </span><del>188</del></p>
+							</p>
+						</dd>
+					</dl>
+					<dl class="dl3">
+						<dt><a href=""><img src="images/6.jpg"/></a></dt>
+						<dd>
+							<p class="straw">水果桑巴 Fruit Samba</p>
+							<p class="price">
+								<span>￥218</span>
+								<em>8号</em>
+								<a href=""><button>立即购买</button></a>
+								<p class="del"><span>市场价：￥ </span><del>248</del></p>
+							</p>
+						</dd>
 					</dl>
 					<dl>
-						<dt><img src="images/6.jpg"/></dt>
-						<dd></dd>
+						<dt><a href=""><img src="images/7.jpg"/></a></dt>
+						<dd>
+							<p class="straw">加高黑森林蛋糕 Black Forest</p>
+							<p class="price">
+								<span>￥258</span>
+								<em>8号</em>
+								<a href=""><button>立即购买</button></a>
+								<p class="del"><span>市场价：￥ </span><del>188</del></p>
+							</p>
+						</dd>
 					</dl>
 					<dl>
-						<dt><img src="images/7.jpg"/></dt>
-						<dd></dd>
+						<dt><a href=""><img src="images/8.jpg"/></a></dt>
+						<dd>
+							<p class="straw">雪中相拥 Embrace in the Snow</p>
+							<p class="price">
+								<span>￥258</span>
+								<em>8号</em>
+								<a href=""><button>立即购买</button></a>
+								<p class="del"><span>市场价：￥ </span><del>188</del></p>
+							</p>
+						</dd>
 					</dl>
-					<dl>
-						<dt><img src="images/8.jpg"/></dt>
-						<dd></dd>
-					</dl>
+					<div class="group">
+						<div class="add"><a href="">+</a></div>
+						<h6>OUR GROUP-BUYING</h6>
+						<span><em>本期团购</em></span>
+					</div>
 				</div>
+				
+			</div>
+			<div class="adver">
+				<a href=""><img src="images/9.jpg" /></a>
 			</div>
 		</div>
 		<footer></footer>

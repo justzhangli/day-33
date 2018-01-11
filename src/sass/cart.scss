@@ -1,0 +1,171 @@
+.main{
+    width: 100%;
+    margin: 0 auto;
+    .status{
+        width: 980px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    .cart{
+        width: 980px;
+        margin: 0 auto;
+        .cart_title{
+            width: 100%;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            background: #692c12;
+            font-weight: bold;
+            color: white;
+            font-size: 12px;
+            div{
+                float: left;
+                width: 82px;
+                height: 30px;
+                .ck_all{
+                    margin-right: 10px;
+                    margin-top: 10px;
+                }
+            }
+            .product_name{
+                width: 300px;
+                height: 100%;
+            }
+            .youhui{
+                width: 100px;
+                height: 100%;
+            }
+        }
+        .cart_body{
+            width: 100%;
+            font-size: 12px;
+            color: #692c12;
+            border-spacing:0;
+            border-collapse:collapse;
+            tr{
+                width: 100%;
+                height: 80px;
+                text-align: center;
+                border-bottom:1px solid #692c12 ;
+                td{
+                    width: 80px;
+                }
+                .amount .minus{cursor: pointer;}
+                .amount .add{cursor: pointer;}
+                .operate a{cursor: pointer;}
+                .youhui{width: 100px;}
+                .detail{
+                        width: 300px;
+                        height: 55px;
+                        padding-top: 20px;
+                        dt{
+                        width: 80px;
+                        height: 100%;
+                        color: #692c12;
+                        float: left;
+                        img{
+                            width: 75px;
+                            height: 55px;
+                        }
+                        }
+                        dd{
+                            width: 160px;
+                           height: 100%; 
+                           margin-left: 120p;
+                        }
+                    }
+                }
+            }
+           
+        }
+        .total_sub{
+            width: 100%;
+            height: 30px;
+            text-align: right;
+            line-height: 30px;
+            color: #692c12;
+            font-size: 16px;
+        }
+        .other_oper{
+            margin-top: 20px;
+            button{
+                color: #692c12;
+                font-size: 12px; 
+                background: none;
+                border-radius:20px ;
+                width: 80px;
+                height: 30px;
+                border: none;
+                border: 1px solid #692c12;
+                &:hover{background: #ffe100;
+                        border-color:#ffe100 ;
+                }
+            }
+            .clear{margin-left: 100px;}
+            .continue{float: right;}
+            .caculate{float: right;margin-left:20px;}   
+        }
+        .interest{
+            width: 100%;
+            height: 260px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            border: 1px solid #692c12;
+            .top{
+                width: 100%;
+                height: 30px;
+                line-height: 30px;
+                background: #692c12;
+                span{
+                    color: white;
+                    font-size: 14px;
+                    padding-left: 10px;
+                }
+                button{
+                    width: 80px;
+                    height: 28px;
+                    border: none;
+                    background: none;
+                    background:#fdefe2;
+                    margin-left: 5px;
+                }
+            }
+            .body{
+                width: 100%;
+                height: 210px;
+                border-bottom: 1px dashed #d0bca5;
+                dl{
+                    width: 200px;
+                    height: 195px;
+                    background: #fef8f1;
+                    text-align: center;
+                    dt img{
+                       margin-top: 10px;
+                    }
+                    dd{
+                        font-size: 12px;
+                        color: #692c12;
+                        padding-left: 10px;
+                        text-align: left;
+                        p{
+                            line-height: 32px;
+                        }
+                        button{
+                            color: #692c12;
+                            font-size: 12px; 
+                            background: none;
+                            border-radius:20px ;
+                            margin-left: 20px;
+                            width: 80px;
+                            height: 20px;
+                            border: none;
+                            border: 1px solid #692c12;
+                            &:hover{background: #ffe100;
+                                    border-color:#ffe100 ;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }

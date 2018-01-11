@@ -1,0 +1,22 @@
+﻿{
+	"res_code":0,
+	"res_error":"",
+	"res_body":{
+		"data" : [
+			{"id":1, "type":"8号","price":258,"title":"草莓拿破仑 Strawberry Napoleon","img":"/images/4.jpg","send":"该商品不可配送","description":"酥皮的香脆、蛋糕胚的绵软，口味层次感丰富十足，决不辜负发烧级“吃货”的挑剔味觉","english":"Soft Vanilla sponge cake layered with crispy puff pastry sheets and filled with premium butter. A classic French dessert","write":"手工巧克力牌写字(14个字符或7个汉字内)","add_to":"加入购物车","tishi":"温馨提示","chose":"请选择商品规格","confirm":"确定"},
+			{"id":2, "type":"6号","price":158,"title":"缤纷水果 ", "img":"/../images/little_2.jpg"},
+			{"id":3, "type":"8号","price":218,"title":"缤纷水果 ", "img":"/../images/little_2.jpg"},
+			{"id":4, "type":"10号","price":288,"title":"缤纷水果 ", "img":"/../images/little_2.jpg"},
+			{"id":5, "type":"12号","price":418,"title":"缤纷水果 ", "img":"/../images/little_2.jpg"},
+			{"id":6, "type":"8号","price":218,"title":"水果桑巴 ", "img":"/../images/little_3.jpg"},
+			{"id":7, "type":"10号","price":288,"title":"水果桑巴 ", "img":"/../images/little_3.jpg"},
+			{"id":8, "type":"6号","price":158,"title":"加高黑森林蛋糕 ", "img":"/../images/little_5.jpg"},
+			{"id":9, "type":"8号","price":218,"title":"加高黑森林蛋糕 ", "img":"/../images/little_5.jpg"},
+			{"id":10, "type":"10号","price":298,"title":"加高黑森林蛋糕 ", "img":"/../images/little_5.jpg"},
+			{"id":11, "type":"12号","price":448,"title":"加高黑森林蛋糕 ", "img":"/../images/little_5.jpg"},
+			{"id":12, "type":"14号","price":548,"title":"加高黑森林蛋糕 ", "img":"/../images/little_5.jpg"},
+			{"id":13, "type":"16号","price":708,"title":"加高黑森林蛋糕 ", "img":"/../images/little_5.jpg"},
+			{"id":14, "type":"6号","price":158,"title":"雪中相拥 ", "img":"/../images/little_4.jpg"}
+		]
+	}
+}

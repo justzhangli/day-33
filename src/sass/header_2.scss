@@ -4,42 +4,41 @@
     padding: 0;
 }
 a{
-    color: white;
+    color: #692c12;
     text-decoration: none;
 }
 li{list-style: none;}
 //宽度
-.header_rgb{
+.header_yellow{
     width : 100%;
     height: 150px;
-    background: rgba(0,0,0,0.3);
     font-size: 12px;
-    color: white;
+    color: #692c12;
     position: fixed;
-    display: block;
+    display: none;
     z-index: 1;
     //top
     .top{
-        width: 1263px;
+        width: 100%;
         height: 30px;
         line-height: 30px;
         border-bottom: 1px solid #030303;
         margin: 0 auto;
+        display: block;
         .left{
             width: 270px;
             height: 30px;
             margin-left:280px ;
             display: inline-block;
             float: left;
+            color: #692c12;
             .span1{
                 display: inline-block;
                 margin-right: 20px;
             }
             .span2{
-                height: 100%;
                 display: inline-block;
                 margin-right: 20px;
-                position: relative;
                 .icon-jiantouxia{
                     font-size: 10px;
                     opacity: 0.5;
@@ -50,20 +49,18 @@ li{list-style: none;}
                 .district{
                     width:50px;
                     height:50px;
-                    border-radius: 5px;
                     background: #FFFFFF;
-                    position: absolute;
+                    margin-left: 70px;
                     display: none;
                     li{width:50px;
-                        height: 25px;
+                        height: 20px;
                         text-align: center;
-                        line-height: 25px;
-                        cursor: pointer;
-                        a{color: #030303;}
-                    } 
+                        line-height: 20px;
+                    
+                    } a{color: #030303;}
                 }
             }
-          
+            
             .span3{
                 padding-right: 5px;   
             }
@@ -90,11 +87,12 @@ li{list-style: none;}
     }
     //bottom
     .bottom{
-        width: 1263px;
+        width: 100%;
         height: 120px;
         line-height: 120px;
         font-size: 14px;
         margin: 0 auto;
+        background: #ffd400;
         .nav2{
             width: 900px;
             height: 120px;
@@ -106,13 +104,13 @@ li{list-style: none;}
                 padding-right: 10px;
                 padding-left:10px;
                 a{
-                    color:#ffe100;
+                    color:#692c12;
                     padding-left: 10px;
                     padding-right:10px;
-                    &:hover{border-bottom: 1px solid #ffe100;}
+                    &:hover{border-bottom: 1px solid #692c12;}
                 }
-                .icon-sousuo{
-                    color: #ffe100;
+                .iconfont{
+                    color: #692c12;
                     font-size: 24px;
                     cursor: pointer;
                 }
@@ -124,11 +122,12 @@ li{list-style: none;}
                     padding-left: 15px;
                     display: none;
                 }
+                i{
+                   color: #692c12; 
+                }
                 img{display: inline-block;width:65px;height: 100px;margin-top:10px;}
             }
         }
     }
     
 }
-
-/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>可颂商城-蛋糕订购新鲜送达</title>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header_2.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="../font/iconfont.css"/>
+		<script src="../lib/requirejs/require.js" data-main="/js/register"></script>
+	</head>
+	
+	<body>
+		<div class="header_yellow" style="display: block;"></div>
+		<div class="form">
+			<div class="content">
+				<div class="left">
+					<h1>用户登录</h1>	
+					<form method="get" action="login.php">
+						<label>手机号：</label><input type="tel" required="required" name="username"/> *<br />
+						<div class="phone_num">请输入手机号</div>
+						<label>密  &nbsp;码：</label> <input type="password" name="password" required="required"/> *<br />
+						<label>验证码：</label><input type="text" class="yanzheng"/> * <img src=""/><br />
+						<input type="checkbox" required="required"/><span class="check">记住用户名</span><span><a href="http://9izone.com/FindPassword.html">忘记密码？</a></span></br/>
+						<input type="submit"  value="登 &nbsp;录" class="btn_login"/>
+					</form>
+						
+				</div>
+				<div class="right">
+					<h1>新用户注册</h1>
+					<form method="get" action="register.php">
+						<label>手 &nbsp;机：</label><input type="text" class="in_phone_num" name="username" required="required"/> <span class="span1">*</span><input type="text" value="验证码获取" class="duanxin"/><br />
+						<div class="ck_phone">请输入正确的手机号码！</div>
+						<label class="duanxin_ck"></label><input type="text" class="duanxin_ck" required="required"/> <span class="span2"></span> </br>
+						<div class="in_duanxin"></div>
+						<label>密  &nbsp;码：</label> <input type="password" class="in_password" name="password" required="required"/> <span class="span3">*</span><br />
+						<div class="ck_password">密码请设置为6-16位数字</div>
+						<label>确认密码：</label><input type="password" class="confirm_password" required="required"/> <span class="span4">*</span> <br />
+						<div class="in_pw"></div>
+						<label>生&nbsp; &nbsp;&nbsp;日：</label><input type="date" /> <br />
+						<label>验证码：</label><input type="text" class="yanzheng" required="required"/><img src=""/></br>
+						<input type="checkbox"  class="checkbox" required="required"/><span class="check">我已阅读并接受</span><span><a href="http://9izone.com/FindPassword.html">“服务条款”</a></span></br/>
+						<input type="submit"  value="注 &nbsp;册" class="btn_register"/>
+					</form>
+				</div>
+			</div>
+		</div>
+		<footer></footer>
+	</body>
+
+</html>
